@@ -1,0 +1,366 @@
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Desktop container */
+.desktop {
+  background-color: #7c7c7c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Main div container */
+.desktop .div {
+  background-color: #7c7c7c;
+  width: 1440px;
+  height: 1789px;
+  position: relative;
+}
+
+/* Overlap group */
+.desktop .overlap-group {
+  height: 665px;
+  top: 0;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+/* Rectangle background */
+.desktop .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 602px;
+  top: 0;
+  left: 0;
+}
+
+/* Text on the desktop (Main Heading) */
+.desktop .WORK-LIKE-a-CHAMPION {
+  position: absolute;
+  top: 245px;
+  left: 160px;
+  font-family: "Saira Condensed-ExtraBold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 96px;
+  line-height: 96px;
+}
+
+/* Text styling */
+.desktop .text-wrapper {
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.92px;
+  line-height: 64.8px;
+}
+
+.desktop .span {
+  font-weight: 800;
+  color: #000000;
+  letter-spacing: -0.92px;
+  line-height: 64.8px;
+}
+
+.desktop .text-wrapper-2 {
+  font-weight: 800;
+  color: #f78500;
+  letter-spacing: -0.92px;
+  line-height: 64.8px;
+}
+
+/* Fitness Gym logo positioning */
+.desktop .FITNESSGYM {
+  position: absolute;
+  width: 135px;
+  top: 28px;
+  left: 204px;
+  font-family: "Saira Condensed-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Additional text wrappers */
+.desktop .text-wrapper-3 {
+  color: #ffffff;
+}
+
+.desktop .text-wrapper-4 {
+  color: #f78500;
+}
+
+.desktop .istockphoto {
+  position: absolute;
+  width: 85px;
+  height: 57px;
+  top: 20px;
+  left: 138px;
+  object-fit: cover;
+}
+
+/* Frame containers */
+.desktop .frame {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  position: absolute;
+  top: 18px;
+  left: 920px;
+}
+
+.desktop .frame-2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Text wrappers for smaller frames */
+.desktop .text-wrapper-5,
+.desktop .text-wrapper-6,
+.desktop .text-wrapper-7,
+.desktop .text-wrapper-8 {
+  font-family: "Saira Condensed-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  line-height: 17px;
+  white-space: nowrap;
+}
+
+/* Frame styling */
+.desktop .frame-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #020202;
+}
+
+.desktop .frame-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: #f78500;
+}
+
+/* Box-shadow and padding for frame-4 */
+.desktop .frame-4 {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  top: 514px;
+  left: 292px;
+  background-color: #efefef;
+  box-shadow: 0px 29px 77.6px #0000004c;
+  padding: 20px;
+}
+
+/* Fitness icons and descriptions */
+.desktop .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.desktop .frame-5:hover {
+  transform: translateY(-5px);
+}
+
+.desktop .fitness-icons-vector {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.desktop .text-wrapper-9,
+.desktop .text-wrapper-10 {
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #f78500;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.desktop .fitness-description {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+/* Bottom section styling */
+.desktop .overlap {
+  height: 320px;
+  top: 1469px;
+  background-color: #000000;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+/* Main "Start working out" text */
+.desktop .START-WORKING-OUT {
+  position: absolute;
+  top: 61px;
+  left: 159px;
+  font-family: "Saira Condensed-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 60px;
+  letter-spacing: -0.60px;
+  line-height: 60px;
+}
+
+.desktop .text-wrapper-11 {
+  color: #ffffff;
+  letter-spacing: -0.36px;
+  line-height: 0.1px;
+}
+
+.desktop .text-wrapper-12 {
+  color: #f78500;
+  letter-spacing: -0.36px;
+  line-height: 63.8px;
+}
+
+/* Frame 6 and others for terms and conditions */
+.desktop .frame-6 {
+  display: flex;
+  width: 281px;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 243px;
+  left: 999px;
+}
+
+.desktop .terms-conditions {
+  position: relative;
+  width: 146px;
+  height: 32px;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  line-height: 27.2px;
+  white-space: nowrap;
+}
+
+/* Subtract icon positioning */
+.desktop .subtract {
+  position: relative;
+  width: 25px;
+  height: 15px;
+}
+
+/* Frame 8 styling */
+.desktop .frame-8 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 112px;
+  position: absolute;
+  top: 842px;
+  left: 153px;
+}
+
+/* Image styling */
+.desktop .img {
+  position: relative;
+  width: 550px;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* Frame 9 and others for layout positioning */
+.desktop .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+  position: relative;
+}
+
+.desktop .frame-10 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.desktop .rectangle-2 {
+  position: relative;
+  width: 6px;
+  height: 82px;
+  background-color: #f78500;
+  border-radius: 2px;
+}
+
+/* Heading styles */
+.desktop .HOW-WE-GOT-STARTED {
+  position: relative;
+  width: 455px;
+  margin-top: -1.00px;
+  font-family: "Saira Condensed-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: -0.48px;
+  line-height: 32.4px;
+}
+
+/* Final frame container */
+.desktop .frame-11 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+  position: relative;
+}
+
+.desktop .founded-on-the {
+  position: relative;
+  width: 441px;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  line-height: 27.2px;
+}
+
+.desktop .frame-12 {
+  display: flex;
+  width: 75px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #f78500;
+}
